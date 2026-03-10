@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Simulador de Búsqueda IA</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+</head>
+
+<body>
+
+<div id="sidebar">
+
+<h2>Simulador IA</h2>
+
+<label>Algoritmo</label>
+<select id="algo">
+
+<option value="bfs">BFS</option>
+<option value="dfs">DFS</option>
+<option value="astar">A*</option>
+
+</select>
+
+<label>Velocidad</label>
+<input id="speed" type="range" min="1" max="100" value="50">
+
+<button id="startBtn">Buscar Ruta</button>
+
+<h3>Estado</h3>
+<div id="status">Selecciona punto inicial</div>
+
+<h3>Nodos explorados</h3>
+<div id="nodeCount">0</div>
+
+<h3>Estructura de datos</h3>
+<div id="estructura"></div>
+
+<h3>Explicación</h3>
+<div id="explicacionRuta"></div>
+
+</div>
+
+<div id="map"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

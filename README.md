@@ -5,7 +5,7 @@ Este proyecto es un simulador interactivo de Inteligencia Artificial diseñado p
 ## Descripción del Proyecto
 El simulador permite a los usuarios seleccionar puntos de origen y destino directamente sobre un mapa interactivo. El sistema procesa los datos viales mediante un grafo ponderado, permitiendo observar en tiempo real cómo cada algoritmo explora el espacio de búsqueda y cómo las distintas estrategias impactan en la eficiencia del camino encontrado.
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 * **Frontend:** HTML5, CSS3, JavaScript (ES6+).
 * **Visualización de Mapas:** [Leaflet.js](https://leafletjs.com/) con capas de estilo oscuro.
 * **Procesamiento de Datos:** Python utilizando la librería `OSMnx` para la extracción de nodos y aristas desde OpenStreetMap.

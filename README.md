@@ -31,7 +31,7 @@ El simulador permite a los usuarios seleccionar puntos de origen y destino direc
 3.  **Acceso:**
     Abre tu navegador y dirígete a `http://localhost:8000`.
 
-## lgoritmos Implementados
+## Algoritmos Implementados
 * **BFS (Breadth-First Search):** Explora por niveles; garantiza el camino mínimo en grafos sin peso.
 * **DFS (Depth-First Search):** Explora hasta la máxima profundidad; útil para resolución de laberintos, pero no siempre óptimo.
 * **A* (A-star):** Utiliza la distancia euclidiana como heurística $h(n)$ para guiar la búsqueda de manera eficiente, equilibrando el costo real $g(n)$ con la estimación hacia el objetivo.
